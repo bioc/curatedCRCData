@@ -1,13 +1,13 @@
 Package: curatedCRCData
 Type: Package
 Title: Colorectal Cancer Gene Expression Analysis
-Version: 1.1.0
+Version: 1.1.1
 Date: 2013-10-21
 Author: Princy Parsana, Markus Riester, Curtis Huttenhower, Levi Waldron
 Maintainer: Princy Parsana <princyparsana@jhu.edu>
 Description: The curatedCRC package provides relevant functions and data for gene expression analysis in patients with colorectal cancer.
 Depends: R (>= 2.10.0), nlme
-Suggests: survival,sva,BiocStyle, xtable, genefilter, logging
+Suggests: survival,sva,BiocStyle, xtable, genefilter, logging, Biobase
 License: Artistic-2.0
 Packaged: 2013-10-31 19:49:28 UTC; princyp
 Namespace: auto
