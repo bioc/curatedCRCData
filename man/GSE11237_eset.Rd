@@ -23,7 +23,7 @@ Experiment data
    platform_shorttitle:     
       Affymetrix HG_U95Av2
    platform_summary:     
-      hg_u95av2
+      hgu95av2
    platform_manufacturer:     
       Affymetrix
    platform_distribution:     
@@ -46,7 +46,7 @@ An object of class 'AnnotatedDataFrame'
 \details{
 \preformatted{
 assayData: 8933 features, 23 samples
-Platform type: hg_u95av2
+Platform type: hgu95av2
 --------------------------- 
 Available sample meta-data: 
 --------------------------- 
@@ -69,7 +69,7 @@ G:
 
 summarystage: 
 early  late 
-    4    19 
+   12    11 
 
 T: 
  1  2  3  4 
@@ -87,6 +87,10 @@ location:
    Length     Class      Mode 
        23 character character 
 
+summarylocation: 
+ l  r 
+ 9 14 
+
 gender: 
  f  m 
 13 10 
@@ -99,13 +103,13 @@ batch:
 2003-08-19 2003-08-28 
         15          8 
 
-drug_name: 
-celecoxib      NA's 
-       11        12 
-
-drug_treatment: 
+preop_drug_treatment: 
  n  y 
 12 11 
+
+preop_drug_name: 
+celecoxib      NA's 
+       11        12 
 
 uncurated_author_metadata: 
    Length     Class      Mode 

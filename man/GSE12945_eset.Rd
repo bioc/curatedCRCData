@@ -23,7 +23,7 @@ Experiment data
    platform_shorttitle:     
       Affymetrix HG-U133A
    platform_summary:     
-      hg-u133a
+      hgu133a
    platform_manufacturer:     
       Affymetrix
    platform_distribution:     
@@ -46,7 +46,7 @@ An object of class 'AnnotatedDataFrame'
 \details{
 \preformatted{
 assayData: 12986 features, 62 samples
-Platform type: hg-u133a
+Platform type: hgu133a
 Overall survival time-to-event summary (in years):
 Call: survfit(formula = Surv(time, cens) ~ -1)
 
@@ -79,7 +79,7 @@ G:
 
 summarystage: 
 early  late 
-   16    46 
+   36    26 
 
 T: 
  2  3  4 
@@ -90,12 +90,16 @@ N:
 36 14 12 
 
 M: 
-   0    1 NA's 
-  56    5    1 
+ 0  1  X 
+56  5  1 
 
 age_at_initial_pathologic_diagnosis: 
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
   38.00   59.00   65.00   64.45   73.75   87.00 
+
+recurrence_status: 
+norecurrence   recurrence         NA's 
+          47            8            7 
 
 days_to_death: 
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
@@ -109,6 +113,10 @@ location:
    Length     Class      Mode 
        62 character character 
 
+summarylocation: 
+   l    r NA's 
+  48   13    1 
+
 gender: 
  f  m 
 28 34 
@@ -118,12 +126,20 @@ lymphnodesremoved:
   11.00   13.25   16.50   19.00   22.75   42.00 
 
 lymphnodesinvaded: 
-  11   13   20 NA's 
-   2    1    1   58 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  0.000   0.000   0.000   1.903   1.750  20.000 
 
 stageall: 
  1  2  3  4 
 13 23 21  5 
+
+dfs_status: 
+deceased_or_recurrence    living_norecurrence                   NA's 
+                    15                     46                      1 
+
+days_to_recurrence_or_death: 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+     90    1110    1440    1333    1620    1920      10 
 
 batch: 
    Length     Class      Mode 

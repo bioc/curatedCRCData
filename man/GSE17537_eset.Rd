@@ -23,7 +23,7 @@ Experiment data
    platform_shorttitle:     
       Affymetrix HG-U133Plus2
    platform_summary:     
-      hg-u133_plus_2
+      hg-u133plus2
    platform_manufacturer:     
       Affymetrix
    platform_distribution:     
@@ -46,7 +46,7 @@ An object of class 'AnnotatedDataFrame'
 \details{
 \preformatted{
 assayData: 19320 features, 55 samples
-Platform type: hg-u133_plus_2
+Platform type: hg-u133plus2
 Overall survival time-to-event summary (in years):
 Call: survfit(formula = Surv(time, cens) ~ -1)
 
@@ -61,6 +61,14 @@ alt_sample_name:
    Length     Class      Mode 
        55 character character 
 
+sample_type: 
+tumor 
+   55 
+
+primarysite: 
+co 
+55 
+
 summarygrade: 
 high  low NA's 
    3   33   19 
@@ -68,6 +76,22 @@ high  low NA's
 G: 
    1    2    3 NA's 
    1   32    3   19 
+
+summarystage: 
+early  late  NA's 
+    4    36    15 
+
+N: 
+   0 NA's 
+  19   36 
+
+M: 
+ 0  1 
+38 17 
+
+Dstage: 
+   B    C    D NA's 
+  15   19   17    4 
 
 age_at_initial_pathologic_diagnosis: 
    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
@@ -100,6 +124,18 @@ stageall:
 ethnicity: 
     black caucasian  hispanic 
         4        50         1 
+
+dfs_status: 
+deceased_or_recurrence    living_norecurrence                   NA's 
+                    19                     31                      5 
+
+days_to_recurrence_or_death: 
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
+    0.0    29.1  1505.0  1196.0  1782.0  3345.0       5 
+
+disease_specific_mortality: 
+ n  y 
+40 15 
 
 batch: 
    Length     Class      Mode 
