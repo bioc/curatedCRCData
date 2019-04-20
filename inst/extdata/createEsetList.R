@@ -19,7 +19,10 @@ if (length(inputArgs) >=3) {
     # assume data was sourced and config options were set
     kLogFile <-"createEsetList.log"
 }
-
+if(length(inputArgs)==0) {
+        inputArgs<-"None provided"
+        #print(inputArgs)
+}
 ##Logging setup
 basicConfig()
 addHandler(writeToFile, logger="", file=kLogFile)
