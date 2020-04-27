@@ -1,7 +1,7 @@
 Package: curatedCRCData
 Type: Package
 Title: Colorectal Cancer Gene Expression Analysis
-Version: 2.19.0
+Version: 2.20.0
 Date: 2015-07-09
 Author: Princy Parsana, Markus Riester, Curtis Huttenhower, Levi Waldron
 Maintainer: Princy Parsana <princyparsana@jhu.edu>
