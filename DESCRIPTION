@@ -1,19 +1,39 @@
 Package: curatedCRCData
 Type: Package
 Title: Colorectal Cancer Gene Expression Analysis
-Version: 2.43.0
+Version: 2.43.1
 Date: 2015-07-09
-Author: Princy Parsana, Markus Riester, Curtis Huttenhower, Levi Waldron
-Maintainer: Princy Parsana <princyparsana@jhu.edu>
+Authors@R: c(
+    person("Princy", "Parsana", role = "aut"),
+    person("Markus", "Riester", role = "aut"),
+    person("Curtis", "Huttenhower", role = "aut"),
+    person("Levi", "Waldron", email = "lwaldron.research@gmail.com", role = c("aut", "cre"))
+  )
 Description: The curatedCRC package provides relevant functions and data for gene expression analysis in patients with colorectal cancer.
-Depends: R (>= 2.10.0), nlme
-Imports: BiocGenerics
-Suggests: survival, RUnit, metafor, genefilter, logging, sva, xtable,
-        futile.logger, BiocStyle
-Requires: affy
+Depends: 
+    R (>= 4.0.0),
+    nlme
+Imports: 
+    BiocGenerics
+Suggests: 
+    survival,
+    RUnit,
+    metafor,
+    genefilter,
+    logging,
+    sva,
+    xtable,
+    futile.logger,
+    BiocStyle,
+    knitr,
+    rmarkdown,
+    Biobase
+VignetteBuilder: knitr
 License: Artistic-2.0
 Namespace: auto
-biocViews: Colorectal, Cancer, TCGA, ExperimentData, RNAExpressionData
-URL: https://bitbucket.org/biobakery/curatedcrcdata
-Packaged: 2015-07-16 19:41:34 UTC; princy
-PackageStatus: Deprecated
+biocViews: 
+    ExperimentData,
+    CancerData,
+    ExpressionData
+URL: https://github.com/waldronlab/curatedCRCData
+BugReports: https://github.com/waldronlab/curatedCRCData/issues
