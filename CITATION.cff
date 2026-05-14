@@ -1,0 +1,105 @@
+# --------------------------------------------
+# CITATION file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# --------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "curatedCRCData" in publications use:'
+type: software
+license: Artistic-2.0
+title: 'curatedCRCData: Colorectal Cancer Gene Expression Analysis'
+version: 2.45.1
+doi: 10.1186/s13059-018-1511-4
+abstract: The curatedCRC package provides relevant functions and data for gene expression
+  analysis in patients with colorectal cancer.
+authors:
+- family-names: Parsana
+  given-names: Princy
+- family-names: Riester
+  given-names: Markus
+- family-names: Huttenhower
+  given-names: Curtis
+- family-names: Waldron
+  given-names: Levi
+  email: lwaldron.research@gmail.com
+  orcid: https://orcid.org/0000-0003-2725-0694
+preferred-citation:
+  type: article
+  title: Continuity of transcriptomes among colorectal cancer subtypes based on meta-analysis
+  authors:
+  - family-names: Ma
+    given-names: Siyuan
+  - family-names: Ogino
+    given-names: Shuji
+  - family-names: Parsana
+    given-names: Princy
+  - family-names: Nishihara
+    given-names: Reiko
+  - family-names: Qian
+    given-names: Zhirong
+  - family-names: Shen
+    given-names: Jeanne
+  - family-names: Mima
+    given-names: Kosuke
+  - family-names: Masugi
+    given-names: Yohei
+  - family-names: Cao
+    given-names: Yin
+  - family-names: Nowak
+    given-names: Jonathan A
+  - family-names: Shima
+    given-names: Kaori
+  - family-names: Hoshida
+    given-names: Yujin
+  - family-names: Giovannucci
+    given-names: Edward L
+  - family-names: Gala
+    given-names: Manish K
+  - family-names: Chan
+    given-names: Andrew T
+  - family-names: Fuchs
+    given-names: Charles S
+  - family-names: Parmigiani
+    given-names: Giovanni
+  - family-names: Huttenhower
+    given-names: Curtis
+  - family-names: Waldron
+    given-names: Levi
+    email: lwaldron.research@gmail.com
+    orcid: https://orcid.org/0000-0003-2725-0694
+  journal: Genome Biology
+  year: '2018'
+  volume: '19'
+  issue: '1'
+  doi: 10.1186/s13059-018-1511-4
+  start: '142'
+repository: https://bioconductor.org/
+repository-code: https://github.com/waldronlab/curatedCRCData
+url: https://github.com/waldronlab/curatedCRCData
+date-released: '2026-04-10'
+contact:
+- family-names: Waldron
+  given-names: Levi
+  email: lwaldron.research@gmail.com
+  orcid: https://orcid.org/0000-0003-2725-0694
+keywords:
+- bioconductor-package
+- u24ca289073
+references:
+- type: manual
+  title: 'curatedCRCData: Colorectal Cancer Gene Expression Analysis'
+  authors:
+  - family-names: Parsana
+    given-names: Princy
+  - family-names: Riester
+    given-names: Markus
+  - family-names: Huttenhower
+    given-names: Curtis
+  - family-names: Waldron
+    given-names: Levi
+    email: lwaldron.research@gmail.com
+    orcid: https://orcid.org/0000-0003-2725-0694
+  year: '2026'
+  notes: R package version 2.45.1
+  url: https://github.com/waldronlab/curatedCRCData
+
