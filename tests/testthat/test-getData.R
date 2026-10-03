@@ -57,10 +57,17 @@ test_that("unknown dataset names give an informative error", {
                  "Unknown dataset")
 })
 
-test_that("data() stubs create a binding", {
+test_that("data() stubs create a working binding", {
     e <- new.env()
     data("GSE3294_eset", package = "curatedCRCData", envir = e)
     expect_true(exists("GSE3294_eset", envir = e))
+    # force the delayed binding under the check guard so .stubLoad() runs
+    # and resolves to the offline fixture (no network)
+    old <- Sys.getenv("_R_CHECK_PACKAGE_NAME_", unset = NA)
+    Sys.setenv("_R_CHECK_PACKAGE_NAME_" = "curatedCRCData")
+    on.exit(if (is.na(old)) Sys.unsetenv("_R_CHECK_PACKAGE_NAME_") else
+        Sys.setenv("_R_CHECK_PACKAGE_NAME_" = old), add = TRUE)
+    expect_s4_class(e$GSE3294_eset, "ExpressionSet")
 })
 
 test_that("full download works (opt-in; set RUN_FULL_DOWNLOAD_TESTS=1)", {
@@ -71,7 +78,7 @@ test_that("full download works (opt-in; set RUN_FULL_DOWNLOAD_TESTS=1)", {
     eset <- curatedCRCData("TCGA.RNASeqV2.READ_eset")
     expect_s4_class(eset, "ExpressionSet")
     # second call must hit the cache (no download message)
-    expect_silent(suppressMessages(
-        eset2 <- curatedCRCData("TCGA.RNASeqV2.READ_eset")))
+    expect_silent(
+        eset2 <- curatedCRCData("TCGA.RNASeqV2.READ_eset"))
     expect_identical(dim(eset), dim(eset2))
 })
