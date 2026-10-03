@@ -1,11 +1,5 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  Biobase,
-  BiocGenerics
-)
+export(curatedCRCData)
+import(Biobase)
+importFrom(BiocFileCache, BiocFileCache, bfcrpath, bfcquery, bfcremove)
+importFrom(utils, read.csv)
+importFrom(tools, md5sum, R_user_dir)

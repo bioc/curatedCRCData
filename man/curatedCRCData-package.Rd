@@ -1,32 +1,28 @@
 \name{curatedCRCData-package}
-\alias{curatedCRCData}
+\alias{curatedCRCData-package}
 \docType{package}
 \title{Clinically Annotated Data for the CRC Cancer Transcriptome}
 \description{The curatedCRCData package provides manually curated
-  clinical data, uniformly processed expression data, and convenience
-  functions for gene expression analysis in patients with colorectal cancer.
-  
+  clinical data and uniformly processed expression data for gene
+  expression analysis in patients with colorectal cancer.
+
   Note: For staging, the "summarystage" was curated as using information on the pathologic T, N, and M stages, such that "early" = T stage of Tis through T3 and N0 and M0 and "late" = T stage of 4 and/or any N>0 or M>0}
 \details{
-\tabular{ll}{
-Package: \tab curatedCRCData\cr
-Type: \tab Package\cr
-Version: \tab \Sexpr{packageDescription("curatedCRCData")$Version}\cr
-Date: \tab \Sexpr{packageDescription("curatedCRCData")$Date}\cr
-License: \tab Artistic-2.0\cr
-Depends: \tab R (>= 2.10.0), affy\cr
-}
+  Datasets are hosted on Zenodo and downloaded on first use with
+  \code{\link{curatedCRCData}()}, which caches them locally with
+  \pkg{BiocFileCache}. Legacy \code{data()} access still works but is
+  deprecated and downloads through the same mechanism. See the package
+  vignette for rule-based creation of a list of filtered datasets.
 }
 \author{
-Princy Parsana, Markus Riester, Levi Waldron
+Princy Parsana, Markus Riester, Curtis Huttenhower, Levi Waldron
 
-Department of Biostatistics and Computational Biology, Dana-Farber Cancer Institute, Harvard School of Public Health
-
-Maintainer: Princy Parsana <princyparsana@jhu.edu>
+Maintainer: Levi Waldron <lwaldron.research@gmail.com>
 }
-
 \examples{
-##List all datasets:
-data(package="curatedCRCData")
-##
+## List all datasets:
+curatedCRCData()
+## Load one dataset (test=TRUE uses a small offline subset):
+eset <- curatedCRCData("GSE3294_eset", test = TRUE)
 }
+\keyword{package}
