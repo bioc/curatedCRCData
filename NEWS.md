@@ -1,3 +1,36 @@
+# curatedCRCData 2.46.0
+
+## SIGNIFICANT USER-VISIBLE CHANGES
+
+* The 34 datasets are no longer stored inside the package: they are hosted
+  on Zenodo and downloaded individually on first use, then cached locally
+  with `BiocFileCache`. This shrinks the installed package from ~400 MB to
+  a few MB.
+* New exported function `curatedCRCData()`: call it with no arguments to
+  list available datasets, with one dataset name to get an `ExpressionSet`,
+  or with several names to get a named list. `test = TRUE` loads small
+  offline subsets bundled with the package (used by examples, tests, and
+  the vignette).
+* Legacy `data(GSE39582_eset)` access still works (it downloads through the
+  same cache, deferred until the object is first used) but is deprecated
+  and will be removed in a future release.
+* `inst/extdata/createEsetList.R` now loads datasets through the getter; a
+  new `test.mode` option in the patientselection config files selects the
+  offline subsets.
+* The cache is package-specific (`tools::R_user_dir("curatedCRCData",
+  "cache")`); delete that directory to reclaim disk space. Downloads are
+  verified against md5 checksums recorded in
+  `inst/extdata/zenodo-manifest.csv`.
+
+## INTERNAL
+
+* Replaced the never-executed RUnit scaffolding with testthat tests.
+* CI restored to R CMD check + BiocCheck + pkgdown via the waldronlab
+  reusable workflow (previously reduced to pkgdown-only because checking
+  400 MB of data exhausted runner memory).
+* Removed `external_data_store.txt` and `Namespace: auto`; explicit
+  NAMESPACE exporting only `curatedCRCData()`.
+
 # curatedCRCData 2.43.1
 
 * Updated package maintainer to Levi Waldron (<lwaldron.research@gmail.com>).

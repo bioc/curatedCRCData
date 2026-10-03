@@ -1,8 +1,8 @@
 Package: curatedCRCData
 Type: Package
 Title: Colorectal Cancer Gene Expression Analysis
-Version: 2.45.2
-Date: 2026-04-10
+Version: 2.45.3
+Date: 2026-10-03
 Authors@R: c(
     person("Princy", "Parsana", role = "aut"),
     person("Markus", "Riester", role = "aut"),
@@ -10,15 +10,22 @@ Authors@R: c(
     person("Levi", "Waldron", email = "lwaldron.research@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2725-0694")),
     person("National Cancer Institute", role = "fnd", comment = "5U24CA180996")
   )
-Description: The curatedCRC package provides relevant functions and data for gene expression analysis in patients with colorectal cancer.
+Description: Manually curated human colorectal cancer ExpressionSet objects
+    from 34 studies, with uniformly processed expression data and
+    standardized clinical metadata including survival outcomes. Datasets
+    are hosted on Zenodo and downloaded on first use, then cached locally
+    with BiocFileCache. Includes a configurable script for rule-based
+    creation of filtered dataset lists for meta-analysis.
 Depends: 
-    R (>= 4.0.0),
+    R (>= 4.6.0),
     Biobase
 Imports: 
-    BiocGenerics
+    BiocFileCache,
+    tools,
+    utils
 Suggests: 
     survival,
-    RUnit,
+    testthat (>= 3.0.0),
     metafor,
     genefilter,
     logging,
@@ -30,10 +37,11 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 License: Artistic-2.0
-Namespace: auto
 biocViews: 
     ExperimentData,
     CancerData,
     ExpressionData
 URL: https://github.com/waldronlab/curatedCRCData
 BugReports: https://github.com/waldronlab/curatedCRCData/issues
+BuildResaveData: no
+Config/testthat/edition: 3

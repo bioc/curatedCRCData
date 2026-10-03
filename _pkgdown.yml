@@ -1,0 +1,7 @@
+title: curatedCRCData
+url: https://waldronlab.github.io/curatedCRCData
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: flatly
