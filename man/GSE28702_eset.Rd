@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Tsuji S, Midorikawa Y, Takahashi T, Yagi K et al.??Potential responders to FOLFOX therapy for colorectal cancer by Random Forests analysis.??Br J Cancer??2012 Jan 3 
+  Experimenter name: Tsuji S, Midorikawa Y, Takahashi T, Yagi K et al. Potential responders to FOLFOX therapy for colorectal cancer by Random Forests analysis. Br J Cancer 2012 Jan 3 
   Laboratory: Tsuji 2011 
   Contact information:  
   Title: Potential responders to FOLFOX therapy for colorectal cancer by Random Forests analysis. 

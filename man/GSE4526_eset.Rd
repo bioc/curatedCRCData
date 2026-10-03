@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Watanabe T, Kobunai T, Sakamoto E, Yamamoto Y et al.??Gene expression signature for recurrence in stage III colorectal cancers.??Cancer??2009 Jan 15 
-  Laboratory: Watanabe T,??Kobunai T,??Toda E,??Oka T 2006 
+  Experimenter name: Watanabe T, Kobunai T, Sakamoto E, Yamamoto Y et al. Gene expression signature for recurrence in stage III colorectal cancers. Cancer 2009 Jan 15 
+  Laboratory: Watanabe T, Kobunai T, Toda E, Oka T 2006 
   Contact information:  
   Title: Gene expression signature for recurrence in stage III colorectal cancers. 
   URL:  

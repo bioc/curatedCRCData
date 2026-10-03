@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Smith JJ, Deane NG, Wu F, Merchant NB et al.??Experimentally derived metastasis gene expression profile predicts recurrence and death in patients with colon cancer.??Gastroenterology??2010 Mar 
-  Laboratory: Smith JJ,??Beauchamp RD 2009 
+  Experimenter name: Smith JJ, Deane NG, Wu F, Merchant NB et al. Experimentally derived metastasis gene expression profile predicts recurrence and death in patients with colon cancer. Gastroenterology 2010 Mar 
+  Laboratory: Smith JJ, Beauchamp RD 2009 
   Contact information:  
   Title: Experimentally derived metastasis gene expression profile predicts recurrence and death in patients with colon cancer. 
   URL:  

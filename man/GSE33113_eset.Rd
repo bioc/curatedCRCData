@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: de Sousa E Melo F, Colak S, Buikhuisen J, Koster J et al.??Methylation of cancer-stem-cell-associated Wnt target genes predicts poor prognosis in colorectal cancer patients.??Cell Stem Cell??2011 Nov 4 
-  Laboratory: Medema JP,??Tanis PJ 2011 
+  Experimenter name: de Sousa E Melo F, Colak S, Buikhuisen J, Koster J et al. Methylation of cancer-stem-cell-associated Wnt target genes predicts poor prognosis in colorectal cancer patients. Cell Stem Cell 2011 Nov 4 
+  Laboratory: Medema JP, Tanis PJ 2011 
   Contact information:  
   Title: Mutations in the Ras-Raf Axis underlie the prognostic value of CD133 in colorectal cancer. 
   URL:  

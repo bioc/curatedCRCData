@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Kogo R, Shimamura T, Mimori K, Kawahara K et al.??Long noncoding RNA HOTAIR regulates polycomb-dependent chromatin modification and is associated with poor prognosis in colorectal cancers.??Cancer Res??2011 Oct 15 
-  Laboratory: Mori M,??Mimori K,??Yokobori T 2010 
+  Experimenter name: Kogo R, Shimamura T, Mimori K, Kawahara K et al. Long noncoding RNA HOTAIR regulates polycomb-dependent chromatin modification and is associated with poor prognosis in colorectal cancers. Cancer Res 2011 Oct 15 
+  Laboratory: Mori M, Mimori K, Yokobori T 2010 
   Contact information:  
   Title: Long noncoding RNA HOTAIR regulates polycomb-dependent chromatin modification and is associated with poor prognosis in colorectal cancers. 
   URL:  

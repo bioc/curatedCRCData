@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Jorissen RN, Gibbs P, Christie M, Prakash S et al.??Metastasis-Associated Gene Expression Changes Predict Poor Outcomes in Patients with Dukes Stage B and C Colorectal Cancer.??Clin Cancer Res??2009 Dec 15 
+  Experimenter name: Jorissen RN, Gibbs P, Christie M, Prakash S et al. Metastasis-Associated Gene Expression Changes Predict Poor Outcomes in Patients with Dukes Stage B and C Colorectal Cancer. Clin Cancer Res 2009 Dec 15 
   Laboratory: Jorissen and Sieber 2008 
   Contact information:  
   Title: Metastasis-Associated Gene Expression Changes Predict Poor Outcomes in Patients with Dukes Stage B and C Colorectal Cancer. 

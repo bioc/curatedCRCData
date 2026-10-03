@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Matsuyama T, Ishikawa T, Mogushi K, Yoshida T et al.??MUC12 mRNA expression is an independent marker of prognosis in stage II and stage III colorectal cancer.??Int J Cancer??2010 Nov 15 
+  Experimenter name: Matsuyama T, Ishikawa T, Mogushi K, Yoshida T et al. MUC12 mRNA expression is an independent marker of prognosis in stage II and stage III colorectal cancer. Int J Cancer 2010 Nov 15 
   Laboratory: Matsuyama, Sugihara 2009 
   Contact information:  
   Title: MUC12 mRNA expression is an independent marker of prognosis in stage II and stage III colorectal cancer. 

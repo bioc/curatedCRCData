@@ -9,7 +9,7 @@
 experimentData(eset):
 Experiment data
   Experimenter name: Profiling project of a panel of tubular adenoma and serrated adenoma patient material collected in the Academic Medical Center 
-  Laboratory: Medema JP,??de Sousa E Melo F,??Vermeulen L,??Jansen M,??Dekker E,??Van Noesel C,??Fessler E 2013 
+  Laboratory: Medema JP, de Sousa E Melo F, Vermeulen L, Jansen M, Dekker E, Van Noesel C, Fessler E 2013 
   Contact information:  
   Title: AMC tubular and serrated adenomas 
   URL:  

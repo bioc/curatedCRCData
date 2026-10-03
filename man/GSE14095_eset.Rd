@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Watanabe T, Kobunai T, Yamamoto Y, Matsuda K et al.??Gene expression signature and response to the use of leucovorin, fluorouracil and oxaliplatin in colorectal cancer patients.??Clin Transl Oncol??2011 Jun 
+  Experimenter name: Watanabe T, Kobunai T, Yamamoto Y, Matsuda K et al. Gene expression signature and response to the use of leucovorin, fluorouracil and oxaliplatin in colorectal cancer patients. Clin Transl Oncol 2011 Jun 
   Laboratory: Watanabe, Hashimoto 2008 
   Contact information:  
   Title: Gene expression signature and response to the use of leucovorin, fluorouracil and oxaliplatin in colorectal cancer patients. 

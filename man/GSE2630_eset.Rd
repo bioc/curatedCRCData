@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Bandr??E,??Malumbres R,??Cubedo E,??Sola J,??Garc??Foncillas J,??Labarga A. A gene signature of 8 genes could identify the risk of recurrence and progression in Dukes' B colon cancer patients. Oncol Rep 2007 May 
-  Laboratory: Bandr??E,??Malumbres R,??Cubedo E,??Sola J,??Garc??Foncillas J,??Labarga A 2005 
+  Experimenter name: Bandres E, Malumbres R, Cubedo E, Sola J, Garcia-Foncillas J, Labarga A. A gene signature of 8 genes could identify the risk of recurrence and progression in Dukes' B colon cancer patients. Oncol Rep 2007 May 
+  Laboratory: Bandres E, Malumbres R, Cubedo E, Sola J, Garcia-Foncillas J, Labarga A 2005 
   Contact information:  
   Title: A gene signature of 8 genes could identify the risk of recurrence and progression in Dukes' B colon cancer patients. 
   URL:  
