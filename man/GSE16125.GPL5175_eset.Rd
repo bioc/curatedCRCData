@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Reid JF, Gariboldi M, Sokolova V, Capobianco P et al.??Integrative approach for prioritizing cancer genes in sporadic colon cancer.??Genes Chromosomes Cancer??2009 Nov 
+  Experimenter name: Reid JF, Gariboldi M, Sokolova V, Capobianco P et al. Integrative approach for prioritizing cancer genes in sporadic colon cancer. Genes Chromosomes Cancer 2009 Nov 
   Laboratory: Reid, Pierotti 2009 
   Contact information:  
   Title: Integrative approach for prioritizing cancer genes in sporadic colon cancer. 

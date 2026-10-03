@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Jorissen RN, Lipton L, Gibbs P, Chapman M et al.??DNA copy-number alterations underlie gene expression differences between microsatellite stable and unstable colorectal cancers.??Clin Cancer Res??2008 Dec 15 
+  Experimenter name: Jorissen RN, Lipton L, Gibbs P, Chapman M et al. DNA copy-number alterations underlie gene expression differences between microsatellite stable and unstable colorectal cancers. Clin Cancer Res 2008 Dec 15 
   Laboratory: Jorissen and Sieber 2008 
   Contact information:  
   Title: DNA copy-number alterations underlie gene expression differences between microsatellite stable and unstable colorectal cancers. 

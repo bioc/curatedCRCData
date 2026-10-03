@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Staub E, Groene J, Heinze M, Mennerich D et al.??An expression module of WIPF1-coexpressed genes identifies patients with favorable prognosis in three tumor types.??J Mol Med (Berl)??2009 Jun 
+  Experimenter name: Staub E, Groene J, Heinze M, Mennerich D et al. An expression module of WIPF1-coexpressed genes identifies patients with favorable prognosis in three tumor types. J Mol Med (Berl) 2009 Jun 
   Laboratory: Staub, Rosenthal 2009 
   Contact information:  
   Title: An expression module of WIPF1-coexpressed genes identifies patients with favorable prognosis in three tumor types. 

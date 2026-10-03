@@ -1,3 +1,14 @@
+# curatedCRCData 2.46.0 (continued)
+
+## DOCUMENTATION AND METADATA
+
+* Repaired UTF-8 transcoding damage ("??" artifacts) in 32 dataset man
+  pages: author names, journal references, and statistical symbols
+  restored (ASCII equivalents).
+* biocViews extended to ColonCancerData, MicroarrayData, RNASeqData, and
+  GEO for better discoverability.
+* Removed the empty FULLVcuratedCRCData_counts.csv placeholder.
+
 # curatedCRCData 2.46.0
 
 ## SIGNIFICANT USER-VISIBLE CHANGES

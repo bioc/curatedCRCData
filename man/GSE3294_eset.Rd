@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Bianchini M, Levy E, Zucchini C, Pinski V et al.??Comparative study of gene expression by cDNA microarray in human colorectal cancer tissues and normal mucosa.??Int J Oncol??2006 Jul 
+  Experimenter name: Bianchini M, Levy E, Zucchini C, Pinski V et al. Comparative study of gene expression by cDNA microarray in human colorectal cancer tissues and normal mucosa. Int J Oncol 2006 Jul 
   Laboratory: Bianchini 2005 
   Contact information:  
   Title: Comparative study of gene expression by cDNA microarray in human colorectal cancer tissues and normal mucosa. 

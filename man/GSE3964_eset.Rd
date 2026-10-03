@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Graudens E, Boulanger V, Mollard C, Mariage-Samson R et al.??Deciphering cellular states of innate tumor drug responses.??Genome Biol??2006 
+  Experimenter name: Graudens E, Boulanger V, Mollard C, Mariage-Samson R et al. Deciphering cellular states of innate tumor drug responses. Genome Biol 2006 
   Laboratory: Graudens, Imbeaud 2006 
   Contact information:  
   Title: Deciphering cellular states of innate tumor drug responses. 

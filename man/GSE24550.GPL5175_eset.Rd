@@ -8,8 +8,8 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Sveen A, Agesen TH, Nesbakken A, Rognum TO et al.??Transcriptome instability in colorectal cancer identified by exon microarray analyses: Associations with splicing factor expression levels and patient survival.Genome Med??2011 May 27 
-  Laboratory: Sveen A,????esen TH,??Rognum TO,??Lothe RA,??Skotheim RI 2011 
+  Experimenter name: Sveen A, Agesen TH, Nesbakken A, Rognum TO et al. Transcriptome instability in colorectal cancer identified by exon microarray analyses: Associations with splicing factor expression levels and patient survival.Genome Med 2011 May 27 
+  Laboratory: Sveen A, Agesen TH, Rognum TO, Lothe RA, Skotheim RI 2011 
   Contact information:  
   Title: Transcriptome instability in colorectal cancer identified by exon microarray analyses: Associations with splicing factor expression levels and patient survival. 
   URL:  

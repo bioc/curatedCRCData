@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Auman JT, Church R, Lee SY, Watson MA, Fleshman JW, Mcleod HL.??Celecoxib pre-treatment in human colorectal adenocarcinoma patients is associated with gene expression alterations suggestive of diminished cellular proliferation.??Eur J Cancer??2008 Aug 
+  Experimenter name: Auman JT, Church R, Lee SY, Watson MA, Fleshman JW, Mcleod HL. Celecoxib pre-treatment in human colorectal adenocarcinoma patients is associated with gene expression alterations suggestive of diminished cellular proliferation. Eur J Cancer 2008 Aug 
   Laboratory: Auman, Mcleod 2008 
   Contact information:  
   Title: Celecoxib pre-treatment in human colorectal adenocarcinoma patients is associated with gene expression alterations suggestive of diminished cellular proliferation. 

@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Birnbaum DJ, Laibe S, Ferrari A, Lagarde A et al.??Expression Profiles in Stage II Colon Cancer According to APC Gene Status.??Transl Oncol??2012 Apr 
+  Experimenter name: Birnbaum DJ, Laibe S, Ferrari A, Lagarde A et al. Expression Profiles in Stage II Colon Cancer According to APC Gene Status. Transl Oncol 2012 Apr 
   Laboratory: Olschwang S 2011 
   Contact information:  
   Title: Expression Profiles in Stage II Colon Cancer According to APC Gene Status. 

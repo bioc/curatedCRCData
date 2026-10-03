@@ -2,14 +2,14 @@
 \alias{ GSE27544_eset }
 \docType{data}
 \title{ Genome-wide profiling characterizes CRCs with genetic instability and specific routes to HLA class I loss and immunoescape }
-\description{ Bernal M,??Garc??Alcalde F,??Concha ????Blanco A,??Garrido F,??Ruiz-Cabello F }
+\description{ Bernal M, Garcia-Alcalde F, Concha A, Blanco A, Garrido F, Ruiz-Cabello F }
 \usage{data( GSE27544_eset )}
 \format{
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Bernal M,??Garc??Alcalde F,??Concha ????Blanco A,??Garrido F,??Ruiz-Cabello F 
-  Laboratory: Bernal M,??Garc??Alcalde F,??Concha ????Blanco A,??Garrido F,??Ruiz-Cabello F 2011 
+  Experimenter name: Bernal M, Garcia-Alcalde F, Concha A, Blanco A, Garrido F, Ruiz-Cabello F 
+  Laboratory: Bernal M, Garcia-Alcalde F, Concha A, Blanco A, Garrido F, Ruiz-Cabello F 2011 
   Contact information:  
   Title: Genome-wide profiling characterizes CRCs with genetic instability and specific routes to HLA class I loss and immunoescape 
   URL:  
