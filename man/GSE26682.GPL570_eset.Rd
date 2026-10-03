@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Vilar E, Gruber SB, Rennert G, Bartnik CM, Stenzel SL, Iniesta MD, Raskin L,Mukherjee B, Ahn J, Moreno V, Morgan MA. MRE11 deficiency increases sensitivity to poly(ADP-ribose) polymerase inhibition in microsatellite unstable colorectal cancers. Cancer Res 2011 Apr 1 
+  Experimenter name: Vilar E, Gruber SB, Rennert G, Bartnik CM, Stenzel SL, Iniesta MD, Raskin L, Mukherjee B, Ahn J, Moreno V, Morgan MA. MRE11 deficiency increases sensitivity to poly(ADP-ribose) polymerase inhibition in microsatellite unstable colorectal cancers. Cancer Res 2011 Apr 1 
   Laboratory: Vilar E, Morgan MA 2011 
   Contact information:  
   Title: MRE11 deficiency increases sensitivity to poly(ADP-ribose) polymerase inhibition in microsatellite unstable colorectal cancers. 

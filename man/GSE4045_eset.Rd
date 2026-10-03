@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Laiho P, Kokko A, Vanharanta S, Salovaara R et al. Serrated carcinomas form a subclass of colorectal cancer with distinct molecular basis. Oncogene2007 Jan 11 
+  Experimenter name: Laiho P, Kokko A, Vanharanta S, Salovaara R et al. Serrated carcinomas form a subclass of colorectal cancer with distinct molecular basis. Oncogene 2007 Jan 11 
   Laboratory: Laiho, Aaltonen 2007 
   Contact information:  
   Title: Serrated carcinomas form a subclass of colorectal cancer with distinct molecular basis. 

@@ -8,7 +8,7 @@
 \preformatted{
 experimentData(eset):
 Experiment data
-  Experimenter name: Lips EH, van Eijk R, de Graaf EJ, Oosting J et al. Integrating chromosomal aberrations and gene expression profiles to dissect rectal tumorigenesis.BMC Cancer 2008 Oct 29 
+  Experimenter name: Lips EH, van Eijk R, de Graaf EJ, Oosting J et al. Integrating chromosomal aberrations and gene expression profiles to dissect rectal tumorigenesis. BMC Cancer 2008 Oct 29 
   Laboratory: Lips,  Morreau 2008 
   Contact information:  
   Title: Integrating chromosomal aberrations and gene expression profiles to dissect rectal tumorigenesis. 
