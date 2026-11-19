@@ -5,7 +5,7 @@
 * The 34 datasets are no longer stored inside the package: they are hosted
   on Zenodo and downloaded individually on first use, then cached locally
   with `BiocFileCache`. This shrinks the installed package from ~400 MB to
-  a few MB.
+  a few MB (#4, @jwokaty).
 * New exported function `curatedCRCData()`: call it with no arguments to
   list available datasets, with one dataset name to get an `ExpressionSet`,
   or with several names to get a named list. `test = TRUE` loads small
@@ -22,29 +22,18 @@
   verified against md5 checksums recorded in
   `inst/extdata/zenodo-manifest.csv`.
 
-## INTERNAL
+## BUG FIXES AND MINOR IMPROVEMENTS
 
-* `inst/scripts/data-integrity-report.Rmd` now verifies `size_bytes` as
-  well as md5. `R/getData.R` compares `size_bytes` against the cached file
-  on every cache hit, so a wrong size in the manifest would have silently
-  evicted and re-downloaded a valid file on every call. Caught by Copilot
-  review on lima1/curatedBladderData#3.
-
-* Replaced the never-executed RUnit scaffolding with testthat tests.
-* CI restored to R CMD check + BiocCheck + pkgdown via the waldronlab
-  reusable workflow (previously reduced to pkgdown-only because checking
-  400 MB of data exhausted runner memory).
-* Removed `external_data_store.txt` and `Namespace: auto`; explicit
-  NAMESPACE exporting only `curatedCRCData()`.
-
-## DOCUMENTATION AND METADATA
-
-* Repaired UTF-8 transcoding damage ("??" artifacts) in 32 dataset man
-  pages: author names, journal references, and statistical symbols
-  restored (ASCII equivalents).
-* biocViews extended to ColonCancerData, MicroarrayData, RNASeqData, and
-  GEO for better discoverability.
-* Removed the empty FULLVcuratedCRCData_counts.csv placeholder.
+* Download integrity checks verify `size_bytes` as well as md5, so a wrong
+  size in the manifest can no longer evict a valid cached file on every
+  call (#5, @lwaldron).
+* The never-executed RUnit scaffolding is replaced with testthat tests, and
+  NAMESPACE exports only `curatedCRCData()` (#5, @lwaldron).
+* CI is restored to R CMD check, BiocCheck and pkgdown (#5, @lwaldron).
+* Garbled characters ("??") in 32 dataset man pages are repaired
+  (#6, @lwaldron).
+* `biocViews` are extended (ColonCancerData, MicroarrayData, RNASeqData, GEO)
+  for better discoverability (#6, @lwaldron).
 
 # curatedCRCData 2.43.1
 
